@@ -2,35 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background-color: white;
+  width: 100%;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
 /* styles.module.css (or your global styles file) */
 /* Assuming you have Roboto Serif in weights 400 (regular) and 700 (bold) */
 .font-roboto-serif {
-  font-family: 'Roboto Serif', serif;
+  font-family: "Roboto Serif", serif;
 }
 .font-open-sans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }

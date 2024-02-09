@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
-    <nav className="py-4 px-8 h-[72px] flex justify-between">
-      <div className="md:hidden  flex  items-center">
+    <nav className="py-4 px-8 h-[72px] flex justify-between border-2 border-pink-900  w-full">
+      <div className="md:hidden  flex  items-center ">
         <svg
           width="20"
           height="20"
@@ -81,7 +81,7 @@ const Navbar = () => {
           />
         </svg>
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center ">
         <svg
           width="16"
           height="18"
@@ -96,7 +96,7 @@ const Navbar = () => {
         </svg>
         <p className="text-[#60646C] mx-1 ">Checkout</p>
       </div>
-      <div className="flex items-center">
+      <div className="flex items-center ">
         <div>
           <svg
             className="justify-start"

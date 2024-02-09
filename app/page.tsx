@@ -2,8 +2,8 @@ import Body from "./Body";
 
 export default function Home() {
   return (
-    <main>
-      <header className="timer bg-black text-white p-1 flex   justify-center">
+    <main className="">
+      <header className="timer bg-black text-white p-1 flex   justify-center ">
         Holding your tickets for 30:00
       </header>
       <Body />

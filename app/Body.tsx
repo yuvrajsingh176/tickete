@@ -9,15 +9,15 @@ import Right from "./Right";
 
 const Body = () => {
   return (
-    <div className="mt-[80px]  text-black  md:mx-[90px] flex flex-col font-open-sans ">
-      <div className="flex md:justify-around justify-center w-full ">
-        <div className="left md:w-3/5 w-full  h-auto mx-16">
+    <div className="mt-[80px]  text-black  flex flex-col font-open-sans w-full">
+      <div className="flex md:justify-around justify-center  w-full">
+        <div className="left  w-full h-auto ">
           <Frame1 />
           <Details />
           <Additional />
           <Payment />
         </div>
-        <div className="right w-2/5 h-auto ml-4 hidden md:block">
+        <div className="right  h-auto  hidden md:block">
           <Right />
         </div>
       </div>
