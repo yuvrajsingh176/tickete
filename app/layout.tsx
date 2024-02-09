@@ -3,7 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Navbar";
 import Head from "next/head";
-
+import Body from "./Body";
+import Home from "./page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -17,13 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="w-full">
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </Head>
-      <body className="w-full">
+    <html lang="en" className=" overflow-x-hidden overflow-y-auto">
+      <body>
         <Navbar />
-        <div>{children}</div>
+        <div className="flex justify-center items-center ">{children}</div>
       </body>
     </html>
   );

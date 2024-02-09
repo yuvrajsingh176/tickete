@@ -1,8 +1,9 @@
-import Inputs from "./Inputs";
+// import Inputs from "./Inputs";
+import TextField from "@mui/material/TextField";
 
 const Details = () => {
   return (
-    <div className="my-[32px]">
+    <div className="my-[32px] w-full">
       <div className="mb-[32px]">
         <h3 className="text-[24px] font-semibold h-[48px]">
           Enter your details
@@ -13,13 +14,17 @@ const Details = () => {
         </p>
       </div>
       <div>
-        <div className="relative">
-          <Inputs name="Full name" />
-          <span className="absolute top-4 left-24 text-red-500">*</span>
+        <div className="w-full">
+          <TextField
+            className="w-full"
+            id="outlined-basic"
+            label="Full name"
+            variant="outlined"
+          />
         </div>
         {/* 2 */}
         <div className="my-[24px] flex">
-          <div className=" w-1/2   mr-[24px]  border border-[#B9BBC6]   rounded-2xl  flex  justify-around items-center">
+          <div className=" w-1/2  mr-2   border border-[#B9BBC6]   rounded-lg  flex  justify-around items-center">
             <svg
               width="20"
               height="20"
@@ -35,15 +40,12 @@ const Details = () => {
             </svg>
 
             <div className="relative">
-              <input
-                className=" py-6  h-[56px]  rounded-2xl w-[80%] focus:outline-none  "
-                type="text"
-                required
-                placeholder="Country code"
+              <TextField
+                id="standard-basic"
+                label="Country code"
+                variant="standard"
+                className="ml-2 "
               />
-              <span className="absolute top-4 left-[6.1rem] text-red-500">
-                *
-              </span>
             </div>
 
             <svg
@@ -60,23 +62,32 @@ const Details = () => {
               />
             </svg>
           </div>
-          <div className="relative w-1/2">
-            <Inputs name="Phone number" />
-
-            <span className="absolute top-4 left-[8.3rem] text-red-500">*</span>
+          <div className="w-1/2">
+            <TextField
+              className="w-full"
+              id="outlined-basic"
+              label="Phone number"
+              variant="outlined"
+            />
           </div>
         </div>
         {/* 3 */}
-        <div className="my-[24px] flex">
-          <div className="relative w-1/2   mr-[24px]       ">
-            <Inputs name="Email" />
-
-            <span className="absolute top-4 left-[4.2rem] text-red-500">*</span>
+        <div className="my-[24px]  flex">
+          <div className="w-full mr-2 ">
+            <TextField
+              className="w-full rounded-xl"
+              id="outlined-basic"
+              label="Email"
+              variant="outlined"
+            />
           </div>
-          <div className="relative w-1/2">
-            <Inputs name="Confirm email" />
-
-            <span className="absolute top-4 left-[7.8rem] text-red-500">*</span>
+          <div className="w-full">
+            <TextField
+              className="w-full"
+              id="outlined-basic"
+              label="Confirm email"
+              variant="outlined"
+            />
           </div>
         </div>
       </div>

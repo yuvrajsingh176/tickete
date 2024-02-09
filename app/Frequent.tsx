@@ -2,32 +2,39 @@
 import { useState } from "react";
 import DropDown from "./Dropdown";
 interface Valuetype {
+  id: number;
   title: string;
   desc: string;
 }
 
 const values: Array<Valuetype> = [
   {
+    id: 1,
     title: "What should I do on my first trip to Rome?",
     desc: "Rome is packed with hidden gems. If you love art, don't miss the Galleria Doria Pamphilj or Palazzo Barberini. The Museo Barracco is a free museum and well worth a quick visit. If you love the ancient stuff, don't miss the Domus Romana at Palazzo Valentini, the Domus Aurea, and the Baths of Caracalla. For even more hidden gems, take a tour of Trastevere, a fascinating neighborhood full of history and ambiance.",
   },
   {
+    id: 2,
     title: "What should I do on my first trip to Rome?",
     desc: "Rome is packed with hidden gems. If you love art, don't miss the Galleria Doria Pamphilj or Palazzo Barberini. The Museo Barracco is a free museum and well worth a quick visit. If you love the ancient stuff, don't miss the Domus Romana at Palazzo Valentini, the Domus Aurea, and the Baths of Caracalla. For even more hidden gems, take a tour of Trastevere, a fascinating neighborhood full of history and ambiance.",
   },
   {
+    id: 3,
     title: "What should I do on my first trip to Rome?",
     desc: "Rome is packed with hidden gems. If you love art, don't miss the Galleria Doria Pamphilj or Palazzo Barberini. The Museo Barracco is a free museum and well worth a quick visit. If you love the ancient stuff, don't miss the Domus Romana at Palazzo Valentini, the Domus Aurea, and the Baths of Caracalla. For even more hidden gems, take a tour of Trastevere, a fascinating neighborhood full of history and ambiance.",
   },
   {
+    id: 4,
     title: "What should I do on my first trip to Rome?",
     desc: "Rome is packed with hidden gems. If you love art, don't miss the Galleria Doria Pamphilj or Palazzo Barberini. The Museo Barracco is a free museum and well worth a quick visit. If you love the ancient stuff, don't miss the Domus Romana at Palazzo Valentini, the Domus Aurea, and the Baths of Caracalla. For even more hidden gems, take a tour of Trastevere, a fascinating neighborhood full of history and ambiance.",
   },
   {
+    id: 5,
     title: "What should I do on my first trip to Rome?",
     desc: "Rome is packed with hidden gems. If you love art, don't miss the Galleria Doria Pamphilj or Palazzo Barberini. The Museo Barracco is a free museum and well worth a quick visit. If you love the ancient stuff, don't miss the Domus Romana at Palazzo Valentini, the Domus Aurea, and the Baths of Caracalla. For even more hidden gems, take a tour of Trastevere, a fascinating neighborhood full of history and ambiance.",
   },
   {
+    id: 6,
     title: "What should I do on my first trip to Rome?",
     desc: "Rome is packed with hidden gems. If you love art, don't miss the Galleria Doria Pamphilj or Palazzo Barberini. The Museo Barracco is a free museum and well worth a quick visit. If you love the ancient stuff, don't miss the Domus Romana at Palazzo Valentini, the Domus Aurea, and the Baths of Caracalla. For even more hidden gems, take a tour of Trastevere, a fascinating neighborhood full of history and ambiance.",
   },
@@ -37,7 +44,7 @@ const Frequent = () => {
     Array(values.length).fill(false)
   );
   return (
-    <div className="mt-[80px] flex flex-col md:flex-row  justify-between w-full ">
+    <div className="mt-[80px] flex flex-col md:flex-row  w-full ">
       <div className="md:w-2/5 w-full">
         <div>
           <p className="text-[24px] font-semibold">
@@ -91,8 +98,8 @@ const Frequent = () => {
                 d="M130.356 82.4227C130.564 82.3861 130.763 82.3295 130.951 82.2535C131.144 82.1767 131.333 82.089 131.517 81.9922L131.767 83.4111C131.578 83.5383 131.339 83.658 131.044 83.7711C130.755 83.8864 130.432 83.9762 130.074 84.0393C129.659 84.1126 129.271 84.1117 128.915 84.0375C128.562 83.958 128.261 83.7685 128.011 83.4696C127.764 83.1651 127.587 82.713 127.482 82.1132L126.887 78.7428L126.007 79.0762L125.754 77.6446L126.637 77.3223L126.373 75.8251L128.218 75.1535L128.482 76.6523L130.376 75.9621L130.628 77.3938L128.734 78.084L129.385 81.7759C129.432 82.043 129.543 82.2297 129.716 82.336C129.893 82.4385 130.107 82.4667 130.356 82.4227Z"
                 fill="white"
                 stroke="white"
-                stroke-width="0.892857"
-                stroke-linejoin="round"
+                strokeWidth="0.892857"
+                strokeLinejoin="round"
               />
               <ellipse
                 cx="80.8025"
@@ -105,7 +112,7 @@ const Frequent = () => {
               <path
                 d="M126.186 24.4548C123.648 10.0613 111.414 0.187631 98.8592 2.40132C86.3048 4.615 78.1849 18.0778 80.7228 32.4713"
                 stroke="black"
-                stroke-width="3.57143"
+                strokeWidth="3.57143"
               />
               <circle
                 cx="102.724"
@@ -129,7 +136,7 @@ const Frequent = () => {
               <path
                 d="M88.1893 26.8034C88.1893 26.8034 88.4672 40.4562 96.384 39.0602C104.301 37.6643 100.237 24.6791 100.237 24.6791"
                 stroke="black"
-                stroke-width="3.57143"
+                strokeWidth="3.57143"
               />
               <circle
                 cx="49.4787"
@@ -161,11 +168,11 @@ const Frequent = () => {
       <div className="md:ml-8 md:w-3/5 w-full">
         {values.map((val: Valuetype, index: number) => (
           <DropDown
-            key={index}
-            open={opendropdown[index]}
+            key={val.id}
+            open={opendropdown[val.id]}
             setOpen={(isOpen: boolean) => {
               const newOpenDropdowns = [...opendropdown];
-              newOpenDropdowns[index] = isOpen;
+              newOpenDropdowns[val.id] = isOpen;
               setOpenDropdown(newOpenDropdowns);
             }}
             title={val.title}

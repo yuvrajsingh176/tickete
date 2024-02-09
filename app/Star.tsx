@@ -16,7 +16,7 @@ const Star = () => {
           <path
             d="M12.4441 5.76635L9.88603 7.99884C9.76153 8.10714 9.66892 8.24733 9.61815 8.40433C9.56738 8.56134 9.56037 8.72922 9.5979 8.88991L10.3664 12.216L7.46977 10.4576C7.32845 10.3716 7.16617 10.3261 7.0007 10.3261C6.83523 10.3261 6.67295 10.3716 6.53163 10.4576L3.63892 12.216L4.40236 8.89217C4.43988 8.73149 4.43288 8.56361 4.38211 8.4066C4.33134 8.2496 4.23873 8.1094 4.11423 8.00111C6.82147 8.00111 9.88603 7.45144 12.4452 5.76465V5.76862L12.4441 5.76635Z"
             fill="url(#paint1_radial_3001_1650)"
-            fill-opacity="0.8"
+            fillOpacity="0.8"
           />
         </g>
         <g filter="url(#filter1_f_3001_1650)">
@@ -65,18 +65,18 @@ const Star = () => {
           <path
             d="M12.444 5.76635C8.31596 7.23232 5.38195 7.31877 1.55497 5.76975C1.55476 5.76806 1.55476 5.76635 1.55497 5.76465L4.92639 5.47311C5.09099 5.4586 5.24851 5.39943 5.38195 5.30197C5.51539 5.20451 5.61969 5.07247 5.6836 4.92009L7.00006 1.78406L8.31596 4.92009C8.37987 5.07247 8.48417 5.20451 8.61761 5.30197C8.75105 5.39943 8.90857 5.4586 9.07317 5.47311L12.4452 5.76465V5.76862L12.444 5.76635Z"
             fill="url(#paint2_linear_3001_1650)"
-            fill-opacity="0.15"
+            fillOpacity="0.15"
           />
         </g>
         <path
           d="M6.99914 10.7889L4.29675 12.8802L6.99914 11.2328L9.74423 12.8976L6.99914 10.7889Z"
           fill="url(#paint3_linear_3001_1650)"
-          fill-opacity="0.5"
+          fillOpacity="0.5"
         />
         <path
           d="M10.0549 8.53133L11.0694 11.2459L10.4803 8.68756L12.8962 6.57559L10.0549 8.53133Z"
           fill="url(#paint4_linear_3001_1650)"
-          fill-opacity="0.5"
+          fillOpacity="0.5"
         />
         <g filter="url(#filter9_f_3001_1650)">
           <path
@@ -92,9 +92,9 @@ const Star = () => {
             width="9.97294"
             height="7.61796"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -113,9 +113,9 @@ const Star = () => {
             width="8.84001"
             height="2.96025"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -134,9 +134,9 @@ const Star = () => {
             width="4.75492"
             height="2.63041"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -155,9 +155,9 @@ const Star = () => {
             width="2.3361"
             height="4.88102"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -176,9 +176,9 @@ const Star = () => {
             width="4.0518"
             height="5.80729"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -197,9 +197,9 @@ const Star = () => {
             width="1.36861"
             height="2.81832"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -218,9 +218,9 @@ const Star = () => {
             width="2.08419"
             height="1.86971"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -239,9 +239,9 @@ const Star = () => {
             width="1.0424"
             height="1.74418"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -260,9 +260,9 @@ const Star = () => {
             width="13.2237"
             height="7.4482"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -281,9 +281,9 @@ const Star = () => {
             width="6.39128"
             height="4.9976"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -303,8 +303,8 @@ const Star = () => {
             y2="13.6159"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FFBEEA" />
-            <stop offset="1" stop-color="#FF7C44" />
+            <stop stopColor="#FFBEEA" />
+            <stop offset="1" stopColor="#FF7C44" />
           </linearGradient>
           <radialGradient
             id="paint1_radial_3001_1650"
@@ -314,8 +314,8 @@ const Star = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(7.89827 8.03797) rotate(62.1049) scale(4.14419 7.26535)"
           >
-            <stop stop-color="#FF000A" />
-            <stop offset="1" stop-color="#FF67A3" />
+            <stop stopColor="#FF000A" />
+            <stop offset="1" stopColor="#FF67A3" />
           </radialGradient>
           <linearGradient
             id="paint2_linear_3001_1650"
@@ -325,8 +325,8 @@ const Star = () => {
             y2="6.89892"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" stop-opacity="0" />
-            <stop offset="1" stop-color="white" />
+            <stop stopColor="white" stopOpacity="0" />
+            <stop offset="1" stopColor="white" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_3001_1650"
@@ -336,8 +336,8 @@ const Star = () => {
             y2="10.7346"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0.484375" stop-color="#BD080F" />
-            <stop offset="1" stop-color="#810000" stop-opacity="0" />
+            <stop offset="0.484375" stopColor="#BD080F" />
+            <stop offset="1" stopColor="#810000" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_3001_1650"
@@ -347,8 +347,8 @@ const Star = () => {
             y2="9.09603"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF7277" />
-            <stop offset="1" stop-color="#FC000A" stop-opacity="0.04" />
+            <stop stopColor="#FF7277" />
+            <stop offset="1" stopColor="#FC000A" stopOpacity="0.04" />
           </linearGradient>
           <radialGradient
             id="paint5_radial_3001_1650"
@@ -358,8 +358,8 @@ const Star = () => {
             gradientUnits="userSpaceOnUse"
             gradientTransform="translate(5.54564 5.47129) rotate(48.1062) scale(1.96315 5.31516)"
           >
-            <stop stop-color="#FFF0D9" />
-            <stop offset="1" stop-color="#FBEBD4" />
+            <stop stopColor="#FFF0D9" />
+            <stop offset="1" stopColor="#FBEBD4" />
           </radialGradient>
         </defs>
       </svg>

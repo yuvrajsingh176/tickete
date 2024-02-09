@@ -2,13 +2,13 @@ import Right from "./Right";
 
 const Frame1 = () => {
   return (
-    <div className="frame-1 mb-[64px]">
+    <div className="frame-1 mb-[64px] w-full">
       <div className="h-[92px]">
         <p className={`font-medium text-[32px] md:text-[57px]  font-serif`}>
           Confirm & pay
         </p>
       </div>
-      <div className=" md:hidden">
+      <div className=" md:hidden ">
         <Right />
       </div>
       <div className="h-[82px] bg-[#eceff1] rounded-md  text-[14px] flex justify-between p-2">
