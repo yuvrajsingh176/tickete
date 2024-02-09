@@ -18,16 +18,19 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: white;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+/* styles.module.css (or your global styles file) */
+/* Assuming you have Roboto Serif in weights 400 (regular) and 700 (bold) */
+.font-roboto-serif {
+  font-family: 'Roboto Serif', serif;
+}
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
 }
