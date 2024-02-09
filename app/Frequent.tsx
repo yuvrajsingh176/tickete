@@ -37,7 +37,7 @@ const Frequent = () => {
     Array(values.length).fill(false)
   );
   return (
-    <div className="mt-[80px] flex flex-col md:flex-row justify-between w-full ">
+    <div className="mt-[80px] flex flex-col md:flex-row  justify-between w-full ">
       <div className="md:w-2/5 w-full">
         <div>
           <p className="text-[24px] font-semibold">
@@ -52,7 +52,7 @@ const Frequent = () => {
           <div>
             <div>
               <p className="text-[#1C2024]">Still need help?</p>
-              <p className="text-[#1C2024]">We're here for you.</p>
+              <p className="text-[#1C2024]">We&apos;re here for you.</p>
             </div>
             <button className="bg-black p-3 rounded-xl text-white font-semibold text-[16px] mt-3">
               Chat with us

@@ -8,7 +8,7 @@ const Details = () => {
           Enter your details
         </h3>
         <p className=" text-[16px] text-[#60646C] h-[40px]">
-          We'll be sending your tickets to the details below. Booking for a
+          We&apos;ll be sending your tickets to the details below. Booking for a
           friend? Add their details.
         </p>
       </div>
