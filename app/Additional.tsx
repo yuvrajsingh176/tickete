@@ -11,6 +11,16 @@ const Additional = () => {
   const handleChange = (event: SelectChangeEvent) => {
     setAge(event.target.value as string);
   };
+  const [bage, setbAge] = useState("");
+
+  const handleChangeb = (event: SelectChangeEvent) => {
+    setbAge(event.target.value as string);
+  };
+  const [cage, setcAge] = useState("");
+
+  const handleChangec = (event: SelectChangeEvent) => {
+    setcAge(event.target.value as string);
+  };
   return (
     <div>
       <div className="my-[64px] w-full">
@@ -42,13 +52,13 @@ const Additional = () => {
             </div>
             <div className=" w-full    rounded-lg  flex  justify-around items-center">
               <FormControl fullWidth>
-                <InputLabel id="demo-simple-select-label">Age</InputLabel>
+                <InputLabel id="demo-simple-select-label">Select</InputLabel>
                 <Select
                   labelId="demo-simple-select-label"
                   id="demo-simple-select"
-                  value={age}
+                  value={bage}
                   label="Select"
-                  onChange={handleChange}
+                  onChange={handleChangeb}
                 >
                   <MenuItem value={10}>Ten</MenuItem>
                   <MenuItem value={20}>Twenty</MenuItem>
@@ -59,13 +69,15 @@ const Additional = () => {
           </div>
           <div className=" w-full  mr-[24px]    rounded-lg  flex  justify-around items-center">
             <FormControl fullWidth>
-              <InputLabel id="demo-simple-select-label">Age</InputLabel>
+              <InputLabel id="demo-simple-select-label">
+                Multi select
+              </InputLabel>
               <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
-                value={age}
+                value={cage}
                 label="Multi select"
-                onChange={handleChange}
+                onChange={handleChangec}
               >
                 <MenuItem value={10}>Ten</MenuItem>
                 <MenuItem value={20}>Twenty</MenuItem>
